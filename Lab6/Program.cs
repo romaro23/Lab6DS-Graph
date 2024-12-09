@@ -4,7 +4,7 @@ Console.WriteLine("Print number of vertices: ");
 int v = int.Parse(Console.ReadLine());
 Graph graph = new Graph(v);
 int first, second;
-for (int i = 0; i < v; i++)
+for (int i = 0; i < v - 1; i++)
 {
     Console.WriteLine("Print first vertix: ");
     first = int.Parse(Console.ReadLine());
