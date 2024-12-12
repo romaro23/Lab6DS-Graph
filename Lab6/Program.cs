@@ -3,8 +3,10 @@ using System;
 Console.WriteLine("Print number of vertices: ");
 int v = int.Parse(Console.ReadLine());
 Graph graph = new Graph(v);
+Console.WriteLine("Print number of edges: ");
+v = int.Parse(Console.ReadLine());
 int first, second;
-for (int i = 0; i < v - 1; i++)
+for (int i = 0; i < v; i++)
 {
     Console.WriteLine("Print first vertix: ");
     first = int.Parse(Console.ReadLine());
